@@ -10,6 +10,8 @@ Even though my dataset is only 1,500 examples, it could just as easily be 100s o
 
 Then, I used another very powerful databricks tool: AutoML. AutoML automatically trains models and evaluates them in an experiment, returning to you the trained versions of the models that are ready for inference. This abstracts almost all of the early stage machine learning process, and allows you to focus on DevOps: deploying your model at scale in the cloud for real world use.
 
+## Model Registry: 
+
 **I forgot to mention in my demo, but I went on to register the best trained AutoML model from the experiment with the model registry so that it can easily be used for either batch or real-time inference! Here is pic of registered model:**
 
 <p align="center">
